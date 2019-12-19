@@ -35,6 +35,6 @@ for offset in range(0,1):
         #print(player_data)
         player_data.columns = column
         FIFAdata = FIFAdata.append(player_data, ignore_index = True)
-#print(FIFAdata) 
+print(FIFAdata) 
 
-#FIFAdata.to_excel('E:\FIFAdatas.xls')
+FIFAdata.to_excel('E:\FIFAdatas.xls')
